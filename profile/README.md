@@ -10,16 +10,24 @@ We identify issues, improve functionality and enhance performance at RF, so that
 
 ### Open source
 
-| Project | |
-| --- | --- |
-| [**sdrpp-esp-sdr-source**](https://github.com/z2labs/sdrpp-esp-sdr-source) | Native SDR++ source for an ESP32-S3 running ESP-SDR: gapless IQ over USB and a 16 / 40 / 80 MHz on-chip spectrum mode. Ready-to-run packages for Windows, macOS, Linux and Android, plus a conducted measurement report (sensitivity, phase noise, noise figure, IMD, blocking) against a HackRF One and a BB60C. |
-| [**esp-sdr-bridge**](https://github.com/z2labs/esp-sdr-bridge) | The same ESP32-S3 receiver as a SpyServer and rtl_tcp server, for SDR#, GNU Radio, gqrx and remote use. |
-| [**SDRPlusPlus**](https://github.com/z2labs/SDRPlusPlus) | SDR++ ESP, the SDR++ fork the packages are built from (branch `esp-sdr`), including the spectrum-streaming work for SDR++ Server. |
+<a href="https://github.com/z2labs/sdrpp-esp-sdr-source"><img src="img/sdrpp-esp-sdr-source.png" width="640" alt="sdrpp-esp-sdr-source: ESP32-S3 SDR for SDR++"></a>
+
+**[sdrpp-esp-sdr-source](https://github.com/z2labs/sdrpp-esp-sdr-source)**: native SDR++ source for an ESP32-S3 running ESP-SDR, with gapless IQ over USB and a 16 / 40 / 80 MHz on-chip spectrum mode. Ready-to-run packages for Windows, macOS, Linux and Android, plus a conducted measurement report (sensitivity, phase noise, noise figure, IMD, blocking) against a HackRF One and a BB60C.
+
+<a href="https://github.com/z2labs/esp-sdr-bridge"><img src="img/esp-sdr-bridge.png" width="640" alt="esp-sdr-bridge: ESP32-S3 SDR network bridge"></a>
+
+**[esp-sdr-bridge](https://github.com/z2labs/esp-sdr-bridge)**: the same ESP32-S3 receiver as a SpyServer and rtl_tcp server, for SDR#, GNU Radio, gqrx and remote use.
+
+<a href="https://github.com/z2labs/SDRPlusPlus"><img src="https://i.imgur.com/Ter2MQJ.png" width="640" alt="SDR++"></a>
+
+**[SDRPlusPlus](https://github.com/z2labs/SDRPlusPlus)**: SDR++ ESP, the SDR++ fork the packages are built from (branch `esp-sdr`), including the spectrum-streaming work for SDR++ Server.
+
+### Demo videos
 
 <a href="https://youtu.be/sy-2_04tZBM"><img src="https://raw.githubusercontent.com/z2labs/sdrpp-esp-sdr-source/main/docs/img/video.jpg" width="32%" alt="ESP32-S3 80 MHz spectrum in SDR++"></a>
 <a href="https://youtu.be/C4irjaCictg"><img src="https://raw.githubusercontent.com/z2labs/sdrpp-esp-sdr-source/main/docs/img/video_android.jpg" width="32%" alt="SDR++ ESP on Android over USB OTG"></a>
 <a href="https://youtu.be/WVA4J9Fg5GE"><img src="https://raw.githubusercontent.com/z2labs/sdrpp-esp-sdr-source/main/docs/img/video_fm.jpg" width="32%" alt="FM broadcast band with an ESP32-S3 behind a moRFeus upconverter"></a>
 
-*Demo videos: the 80 MHz spectrum in SDR++, SDR++ ESP on Android over USB OTG, and the FM broadcast band through a moRFeus upconverter.*
+*The 80 MHz spectrum in SDR++, SDR++ ESP on Android over USB OTG, and the FM broadcast band through a moRFeus upconverter.*
 
 Need help with an RF problem? **[Get in touch](https://www.z2labs.io)**
