@@ -14,6 +14,10 @@ We identify issues, improve functionality and enhance performance at RF, so that
 
 **[sdrpp-esp-sdr-source](https://github.com/z2labs/sdrpp-esp-sdr-source)**: native SDR++ source for an ESP32-S3 running ESP-SDR, with gapless IQ over USB and a 16 / 40 / 80 MHz on-chip spectrum mode. Ready-to-run packages for Windows, macOS, Linux and Android, plus a conducted measurement report (sensitivity, phase noise, noise figure, IMD, blocking) against a HackRF One and a BB60C.
 
+<a href="https://github.com/z2labs/z2-web-sdr"><img src="img/z2-web-sdr.png" width="640" alt="Z2 Web SDR: the ESP32-S3 radio, live in your browser"></a>
+
+**[Z2 Web SDR](https://github.com/z2labs/z2-web-sdr)**: the ESP32-S3 receiver in a plain browser, no install. One HTML file over Web Serial in Chrome or Edge: 16 / 40 / 80 MHz spectrum and a GPU waterfall at about 270 spectra per second, touch-first on phones and desktops, with the firmware installer built in. **[Open it live](https://z2labs.github.io/z2-web-sdr/)**.
+
 <a href="https://github.com/z2labs/esp-sdr-bridge"><img src="img/esp-sdr-bridge.png" width="640" alt="esp-sdr-bridge: ESP32-S3 SDR network bridge"></a>
 
 **[esp-sdr-bridge](https://github.com/z2labs/esp-sdr-bridge)**: the same ESP32-S3 receiver as a SpyServer and rtl_tcp server, for SDR#, GNU Radio, gqrx and remote use.
