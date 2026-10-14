@@ -1,4 +1,4 @@
-﻿## Fast lane RF troubleshooting
+## Fast lane RF troubleshooting
 
 We identify issues, improve functionality and enhance performance at RF, so that you can fully focus on perfecting application-level features. **[z2labs.io](https://www.z2labs.io)**
 
