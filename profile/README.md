@@ -1,4 +1,4 @@
-## Fast lane RF troubleshooting
+﻿## Fast lane RF troubleshooting
 
 We identify issues, improve functionality and enhance performance at RF, so that you can fully focus on perfecting application-level features. **[z2labs.io](https://www.z2labs.io)**
 
@@ -40,7 +40,7 @@ We identify issues, improve functionality and enhance performance at RF, so that
 
 ### PCB tools
 
-<a href="https://github.com/z2labs/eagle-exhumer"><img src="img/eagle-exhumer.png" width="640" alt="Eagle Exhumer: a friendly fairy wakes a little EAGLE robot in its grave"></a>
+<a href="https://github.com/z2labs/eagle-exhumer"><img src="img/eagle-exhumer.png" width="640" alt="Eagle Exhumer: the plugin's progress output - import, repairs and quality control - next to the EAGLE robot woken from its grave"></a>
 
 **[Eagle Exhumer](https://github.com/z2labs/eagle-exhumer)**: a KiCad 10 plugin that brings old EAGLE designs (`.sch` / `.brd`) into KiCad. It runs KiCad's own EAGLE importer, repairs 15 defects that importer leaves on real boards (split power nets, lost net names, shorts from package copper, missing milling, outlines inside packages, wrong copper layer count, and more), then checks the result against the original EAGLE files with a strong quality control: a strict PASS or FAIL, with a report and 3D renders. Tested on 18 real boards, open source (GPL-3.0). One-click import on Windows, fix + check on every platform.
 
