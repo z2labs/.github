@@ -14,6 +14,10 @@ We identify issues, improve functionality and enhance performance at RF, so that
 
 **[Sniff-Sight](https://github.com/z2labs/Sniff-Sight)**: a packet sniffer and an RF spectrum analyzer side by side. Every captured 802.15.4 / Thread packet is paired with its own RF burst from an ESP32-S3 SDR, so CRC errors, collisions and invisible losses become visible. Bursts are classified as Thread, BLE, Wi-Fi or microwave oven, with a live web dashboard, packet-loss tracking from frame counters and a one-script installer. **[Try the demo](https://z2labs.github.io/Sniff-Sight/demo/)**, no hardware needed.
 
+<a href="https://github.com/z2labs/SatHunter-SDR"><img src="https://raw.githubusercontent.com/z2labs/SatHunter-SDR/main/docs/img/banner.png" width="640" alt="SatHunterSDR: hunt satellites with your phone"></a>
+
+**[SatHunterSDR](https://github.com/z2labs/SatHunter-SDR)**: a satellite-hunting SDR receiver for Android, made for classrooms. Pick a satellite and the app tunes to it, follows its Doppler shift and shows a sky radar that turns with the phone, so you can aim a hand-held Yagi. RTL-SDR (Blog V4 with bias tee) or an ESP32-S3 over USB OTG, live TLEs from SatNOGS and CelesTrak, a "best heard" order from SatNOGS observations, and a demo mode without any hardware. **[Download the beta APK](https://github.com/z2labs/SatHunter-SDR/releases)**.
+
 <a href="https://github.com/z2labs/sdrpp-esp-sdr-source"><img src="img/sdrpp-esp-sdr-source.png" width="640" alt="sdrpp-esp-sdr-source: ESP32-S3 SDR for SDR++"></a>
 
 **[sdrpp-esp-sdr-source](https://github.com/z2labs/sdrpp-esp-sdr-source)**: native SDR++ source for an ESP32-S3 running ESP-SDR, with gapless IQ over USB and a 16 / 40 / 80 MHz on-chip spectrum mode. Ready-to-run packages for Windows, macOS, Linux and Android, plus a conducted measurement report (sensitivity, phase noise, noise figure, IMD, blocking) against a HackRF One and a BB60C.
